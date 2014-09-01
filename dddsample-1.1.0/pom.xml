@@ -298,6 +298,11 @@
           <excludes>**/com/aggregator/**/*</excludes>
         </configuration>
       </plugin>
+<plugin>
+  <groupId>org.eclipse.jetty</groupId>
+  <artifactId>jetty-maven-plugin</artifactId>
+  <version>9.0.5.v20130815</version>
+</plugin>
     </plugins>
   </reporting>
 </project>
